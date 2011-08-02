@@ -1,6 +1,6 @@
 %define name mp3valgui
 %define version 0.1.1
-%define release %mkrel 3
+%define release %mkrel 4
 
 Summary: Tool to validate and fix MPEG audio files
 Name: %{name}
