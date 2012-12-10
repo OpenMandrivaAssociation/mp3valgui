@@ -61,3 +61,30 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %_bindir/%name
 %_datadir/%name
 %_datadir/applications/mandriva-%name.desktop
+
+
+%changelog
+* Tue Aug 02 2011 Götz Waschk <waschk@mandriva.org> 0.1.1-4mdv2012.0
++ Revision: 692726
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 0.1.1-3mdv2011.0
++ Revision: 252950
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <blino@mandriva.org> 0.1.1-1mdv2008.1
++ Revision: 136608
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - kill desktop-file-validate's 'warning: key "Encoding" in group "Desktop Entry" is deprecated'
+
+* Tue Apr 17 2007 Götz Waschk <waschk@mandriva.org> 0.1.1-1mdv2007.1
++ Revision: 13557
+- Import mp3valgui
+
+
+
+* Tue Apr 10 2007 Götz Waschk <waschk@mandriva.org> 0.1.1-1mdv2007.1
+- initial package
