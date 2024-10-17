@@ -9,7 +9,7 @@ Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: Sound
-Url: http://mp3val.sourceforge.net/
+Url: https://mp3val.sourceforge.net/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 Requires: pygtk2.0-libglade
